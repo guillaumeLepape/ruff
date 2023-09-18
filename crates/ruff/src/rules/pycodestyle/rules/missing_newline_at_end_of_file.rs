@@ -19,7 +19,8 @@ use ruff_source_file::Locator;
 ///
 /// Use instead:
 /// ```python
-/// spam(1)\n
+/// spam(1)
+///
 /// ```
 #[violation]
 pub struct MissingNewlineAtEndOfFile;
